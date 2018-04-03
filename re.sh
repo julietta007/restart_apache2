@@ -12,7 +12,7 @@ fi
 # Move the current execution state to the proper directory
 cd /etc/apache2/sites-available
 
-# Disable a vhost configuration
+# Disable a vhost configurationcra
 sudo a2dissite "$CONFIG"
 sudo service apache2 "$COMMAND"
 
