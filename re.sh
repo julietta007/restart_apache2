@@ -9,6 +9,7 @@ then
     exit 1
 fi
 
+
 if [ "$COMMAND" == "reload" ] || [ "$COMMAND" == "restart" ]
 then
 
@@ -26,3 +27,4 @@ else
     echo "ERROR: $COMMAND is an invalid service command {restart|reload}"
     exit 1
 fi
+
